@@ -1,0 +1,76 @@
+.guide {
+  margin: 0 0 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--dsh-color-text-muted, #888);
+}
+
+.probeRow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+  align-items: flex-start;
+}
+
+.probe {
+  padding: 5px 12px;
+  font-size: 13px;
+}
+
+.probeOk {
+  color: var(--dsh-color-success, #2e9e5b);
+  font-size: 12px;
+}
+
+.probeQueue {
+  color: var(--dsh-color-warning, #b58a1f);
+  font-size: 12px;
+}
+
+.probeFail {
+  color: var(--dsh-color-danger, #d64545);
+  font-size: 12px;
+}
+
+.groupTitle {
+  margin: 14px 0 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  padding: 4px 0;
+}
+
+.hint {
+  margin: 0;
+  font-size: 12px;
+  color: var(--dsh-color-text-muted, #888);
+}
+
+.checkText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.checkLabel {
+  font-weight: 500;
+}
+
+.panelRow {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.openPanel {
+  padding: 6px 14px;
+  font-size: 13px;
+}

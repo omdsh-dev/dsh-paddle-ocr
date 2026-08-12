@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dsh-paddle-ocr: settings illustration -->
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="OCR settings">
+  <title>OCR settings</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 40 46 H 90 L 116 72 V 156 H 40 Z" stroke="#9a9a9a" stroke-width="3"/>
+    <path d="M 90 46 V 72 H 116" stroke="#9a9a9a" stroke-width="3"/>
+    <rect x="50" y="58" width="34" height="6" rx="3" fill="#9a9a9a" fill-opacity="0.35"/>
+    <rect x="50" y="70" width="44" height="6" rx="3" fill="#9a9a9a" fill-opacity="0.35"/>
+    <path d="M 40 100 H 116" stroke="#4a6cf7" stroke-width="3.5"/>
+    <rect x="50" y="126" width="36" height="6" rx="3" fill="#9a9a9a" fill-opacity="0.35"/>
+    <rect x="140" y="56" width="132" height="8" rx="4" fill="#9a9a9a" fill-opacity="0.5"/>
+    <rect x="140" y="74" width="106" height="8" rx="4" fill="#9a9a9a" fill-opacity="0.5"/>
+    <rect x="140" y="96" width="150" height="8" rx="4" fill="#4a6cf7" fill-opacity="0.9"/>
+    <rect x="140" y="118" width="122" height="8" rx="4" fill="#9a9a9a" fill-opacity="0.5"/>
+    <rect x="140" y="136" width="86" height="8" rx="4" fill="#9a9a9a" fill-opacity="0.5"/>
+  </g>
+</svg>

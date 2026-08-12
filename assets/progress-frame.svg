@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dsh-paddle-ocr: parsing in progress frame -->
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-label="Parsing in progress">
+  <title>Parsing in progress</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 70 16 H 152 L 172 36 V 96 H 70 Z" stroke="#9a9a9a" stroke-width="3"/>
+    <path d="M 152 16 V 36 H 172" stroke="#9a9a9a" stroke-width="3"/>
+    <rect x="80" y="28" width="36" height="5" rx="2.5" fill="#9a9a9a" fill-opacity="0.4"/>
+    <rect x="80" y="38" width="52" height="5" rx="2.5" fill="#9a9a9a" fill-opacity="0.4"/>
+    <rect x="80" y="64" width="46" height="5" rx="2.5" fill="#9a9a9a" fill-opacity="0.4"/>
+    <rect x="80" y="74" width="30" height="5" rx="2.5" fill="#9a9a9a" fill-opacity="0.4"/>
+
+    <path d="M 70 110 H 152 L 172 130 V 190 H 70 Z" stroke="#9a9a9a" stroke-width="3"/>
+    <path d="M 152 110 V 130 H 172" stroke="#9a9a9a" stroke-width="3"/>
+    <rect x="80" y="122" width="38" height="5" rx="2.5" fill="#9a9a9a" fill-opacity="0.4"/>
+    <rect x="80" y="132" width="54" height="5" rx="2.5" fill="#9a9a9a" fill-opacity="0.4"/>
+    <path d="M 70 150 H 172" stroke="#4a6cf7" stroke-width="3.5"/>
+    <rect x="80" y="164" width="46" height="5" rx="2.5" fill="#9a9a9a" fill-opacity="0.4"/>
+
+    <rect x="70" y="204" width="102" height="80" rx="10" stroke="#9a9a9a" stroke-opacity="0.45" stroke-width="3" stroke-dasharray="8 8"/>
+    <rect x="228" y="16" width="102" height="80" rx="10" stroke="#9a9a9a" stroke-opacity="0.45" stroke-width="3" stroke-dasharray="8 8"/>
+    <rect x="228" y="110" width="102" height="80" rx="10" stroke="#9a9a9a" stroke-opacity="0.45" stroke-width="3" stroke-dasharray="8 8"/>
+    <rect x="228" y="204" width="102" height="80" rx="10" stroke="#9a9a9a" stroke-opacity="0.45" stroke-width="3" stroke-dasharray="8 8"/>
+
+    <circle cx="355" cy="250" r="18" stroke="#9a9a9a" stroke-opacity="0.3" stroke-width="3.5"/>
+    <path d="M 355 232 A 18 18 0 1 1 337 250" stroke="#4a6cf7" stroke-width="3.5"/>
+  </g>
+</svg>

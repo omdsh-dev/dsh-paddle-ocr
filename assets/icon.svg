@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dsh-paddle-ocr: floating action button icon -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Document OCR">
+  <title>Document OCR</title>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 32 20 H 74 L 94 40 V 108 H 32 Z" stroke="#9a9a9a" stroke-width="3"/>
+    <path d="M 74 20 V 40 H 94" stroke="#9a9a9a" stroke-width="3"/>
+    <rect x="42" y="34" width="28" height="6" rx="3" fill="#9a9a9a" fill-opacity="0.35"/>
+    <rect x="42" y="47" width="40" height="6" rx="3" fill="#9a9a9a" fill-opacity="0.35"/>
+    <path d="M 32 64 H 94" stroke="#4a6cf7" stroke-width="3.5"/>
+    <rect x="42" y="78" width="34" height="6" rx="3" fill="#9a9a9a" fill-opacity="0.35"/>
+  </g>
+</svg>

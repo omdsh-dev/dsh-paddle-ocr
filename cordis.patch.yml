@@ -1,0 +1,5 @@
+# dsh-paddle-ocr bundle patch. The browser half is discovered through the
+# package dsh.client manifest.
+- insert:
+    - id: paddle-ocr
+      name: dsh-paddle-ocr
