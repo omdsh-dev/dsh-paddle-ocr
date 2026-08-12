@@ -58,13 +58,14 @@ export function PaddleOcrCard(props: PaddleCardProps) {
   const state = props.usePaddleCard(snapshot => snapshot)
   const [probe, setProbe] = useState<ProbeView | null>(null)
   const [defaults, setDefaults] = useState<DefaultsView | null>(null)
+  const [defaultsError, setDefaultsError] = useState<string | null>(null)
 
   useEffect(() => {
     let cancelled = false
     void callRpc<DescribeView>(props.connection, 'settings/describe').then(describe => {
       if (!cancelled) setDefaults(describe.config.defaults)
-    }).catch(() => {
-      // Defaults stay at their built-in values when the read fails.
+    }).catch((error: unknown) => {
+      if (!cancelled) setDefaultsError(error instanceof Error ? error.message : String(error))
     })
     return () => { cancelled = true }
   }, [props.connection])
@@ -128,6 +129,9 @@ export function PaddleOcrCard(props: PaddleCardProps) {
       </div>
 
       <h3 className={css.groupTitle}>{t('defaultsTitle')}</h3>
+      {defaultsError !== null && defaults === null && (
+        <p className={css.hint}>{defaultsError}</p>
+      )}
       {defaults !== null && (
         <>
           <div className={css.row}>
