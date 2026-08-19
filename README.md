@@ -1,5 +1,7 @@
 # dsh-paddle-ocr
 
+**Author / Maintainer:** [@Zacklinkk](https://github.com/Zacklinkk)
+
 DSH 插件：百度 **PaddleOCR-VL** 文档布局解析。把 PDF / 图片逐页解析为 Markdown
 （文字 + 图片落盘），提供三个宿主工具、一个浏览器配置卡和一个任务面板。
 
